@@ -1,5 +1,5 @@
 prebuilt_etc {
-    name: "bt_configstore.conf",
+    name: "bt_configstore.fake",
     system_ext_specific: true,
     src: "bt_configstore.conf",
     sub_dir: "bluetooth",
@@ -9,7 +9,7 @@ prebuilt_etc {
 // ========================================================
 
 cc_library_shared {
-    name: "libbtconfigstore",
+    name: "libbtconfistore.fake",
     defaults: ["fluoride_defaults_qti"],
     header_libs: ["libbluetooth_headers"],
     export_header_lib_headers: ["libbluetooth_headers"],

@@ -113,7 +113,7 @@ cc_library_static {
         "libbt-audio-hal-interface-qti",
         "libaudio-a2dp-hw-utils",
         "libbt-common-qti",
-        //"libbtif_ext",
+        "libbtif_ext",
     ],
     header_libs: [
         "libmedia_headers",

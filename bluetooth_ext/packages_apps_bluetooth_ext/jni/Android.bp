@@ -10,7 +10,7 @@ cc_defaults {
     ],
     shared_libs: [
         "libandroid_runtime",
-        "libbtconfigstore",
+//        "libbtconfigstore",
     ],
 }
 
